@@ -6,7 +6,7 @@ export const useRecettesStore = defineStore('recettes', {
       {
         id: 1,
         title: "Monplat",
-        ingredients: "oignons, citron, épices",
+        ingredients: "poire, saucisse",
         type: "plat"
       },
       {

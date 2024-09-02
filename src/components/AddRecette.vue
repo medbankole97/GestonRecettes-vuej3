@@ -1,5 +1,7 @@
 <template>
-  <div class="container">
+  
+  <body>
+    <div class="container">
     <h2>Ajouter une Recette</h2>
     <form @submit.prevent="addRecette">
       <div class="mt-5">
@@ -22,6 +24,7 @@
       <RouterLink to="/list" class="btn btn-primary">Voir les Recettes</RouterLink>
     </form>
   </div>
+  </body>
 </template>
 
 <script setup>
@@ -43,3 +46,8 @@ function addRecette() {
   router.push('/list');
 }
 </script>
+<style scoped>
+body{
+  background-color: beige;
+}
+</style>

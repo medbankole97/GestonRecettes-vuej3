@@ -7,7 +7,7 @@
       <button
         class="clr btn text-white mt-5 mb-4 fw-bold"
         v-if="affichebtn"
-        @click="maskBtn"
+        @click="btnfiche"
       >
         Ajouter une recette
       </button>
@@ -16,7 +16,7 @@
       <table class="table table-striped table-bordered border-black">
         <thead class="table-success">
           <tr>
-            <th>Id</th>
+            <th>id</th>
             <th>Titre</th>
             <th>Ingrédients</th>
             <th>Type de recette</th>
@@ -69,7 +69,7 @@ const affichebtn = ref(true);
 const isModalVisible = ref(false);
 const selectedRecette = ref(null);
 
-const maskBtn = () => {
+const btnfiche = () => {
   affichebtn.value = false;
 };
 
@@ -114,18 +114,9 @@ const destroyRecette = (id) => {
 }
 
 .clr {
-  background-color: #343a40;
+  background-color: rgb(77, 109, 149);
 }
 
-.clr:hover {
-  background-color: #24272a;
-}
 
-.page-background {
-  background-color: #f0f0f0;
-  min-height: 90vh;
-  height: fit-content;
-  color: #333;
-  padding: 20px;
-}
+
 </style>

@@ -2,10 +2,8 @@
 
 ## Description
 
-C'est une application web de gestion des recettes en utilisant Vue.js 3 et la
-Composition API. La gestion des états est réalisée avec Pinia, et la navigation entre les
-différentes sections (Home, Recettes) est géré avec Vue Router. L'interface utilisateur
-est stylé avec Bootstrap.
+Gestion des Recettes est une application web pour gérer des recettes de cuisine. Elle permet aux utilisateurs d'ajouter, de modifier et de supprimer des recettes, ainsi que de consulter une liste de toutes les recettes disponibles.
+
 
 ## Prérequis
 
@@ -13,7 +11,7 @@ Avant de commencer, assurez-vous d'avoir installé les éléments suivants :
 
 - [Node.js](https://nodejs.org/) (version 12 ou supérieure)
 - VueJS `npm create vite@latest`
-- vue-router `npm install vue-router@next`
+- vue-router `npm install vue-router`
 - vue-pinia `npm install pinia`
 - Bootstrap `npm install bootstrap`
 - Docker   
@@ -50,14 +48,14 @@ npm run dev
 ```
 ## Les fonctionalités
 
-1. **Recette :** 
 
- - addRecette : cette fonction permet d'ajouter une recette.
- 
- - EditRecette: cette fonction permet d'editer une recette à partir de son id.
- 
- - ListRecette :  cette fonction permet de lister une recette.
 
-## Author
- - [Mohamed Bankolé](https://github.com/medbankole97)
+ - `addRecette` : Permet d'ajouter une recette.
+ 
+ - `EditRecette`: Permet d'editer une recette.
+ 
+ - `ListRecette` : Permet de lister une recette.
+
+## Auteur
+  [Mohamed Bankolé](https://github.com/medbankole97)
 
