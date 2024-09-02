@@ -54,9 +54,9 @@ npm run dev
 
  - addRecette : cette fonction permet d'ajouter une recette.
  
- - EditRecette: cette fonction permet d'effacer une recette à partir de son id.
+ - EditRecette: cette fonction permet d'editer une recette à partir de son id.
  
- - EditRecette :  cette fonction permet de modifier une recette.
+ - ListRecette :  cette fonction permet de lister une recette.
 
 ## Author
  - [Mohamed Bankolé](https://github.com/medbankole97)
