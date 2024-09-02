@@ -2,7 +2,7 @@
   <div class="container">
     <h2>Ajouter une Recette</h2>
     <form @submit.prevent="addRecette">
-      <div class="mb-3">
+      <div class="mt-5">
         <label for="title" class="form-label">Titre</label>
         <input type="text" id="title" v-model="recette.title" class="form-control" required>
       </div>

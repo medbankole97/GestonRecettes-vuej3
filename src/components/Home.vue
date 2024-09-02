@@ -24,7 +24,7 @@ import { ref } from 'vue';
 
 <style scoped>
 .homepage {
-  background-image: url('@/assets/background.jpg'); /* Assurez-vous que cette image existe dans votre dossier assets */
+  background-image: url('@/assets/background.jpg'); 
   background-size: cover;
   background-position: center;
   color: #333;
